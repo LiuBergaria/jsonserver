@@ -1,0 +1,35 @@
+{
+  "name": "create-empty-folders",
+  "version": "0.1.0",
+  "description": "minimal library to create empty folder structures",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --quiet .",
+    "lint-auto-fix": "./node_modules/.bin/eslint --fix ."
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivesh2/create-empty-folders.git"
+  },
+  "keywords": [
+    "folders"
+  ],
+  "author": "Nivesh Singh (nivesh2@gmail.com) <http://niveshsingh.com/>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nivesh2/create-empty-folders/issues"
+  },
+  "homepage": "https://github.com/nivesh2/create-empty-folders#readme",
+  "devDependencies": {
+    "eslint": "4.11.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
+    "pre-commit": "1.2.2"
+  }
+}
