@@ -1,0 +1,7 @@
+{
+  "extends": "standard",
+  "rules": {
+    "eol-last": ["off"],
+    "space-before-function-paren": "off"
+  }
+}
