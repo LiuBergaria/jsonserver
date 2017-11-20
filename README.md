@@ -25,7 +25,7 @@ createFolders(['folder1','folder2'])
 
 // for creating nested folders
 // Note: folder1 is created first as parent folder should be present before creating child folders
-createFolders(['folder1','folder1/folder2','folder1/folder3])
+createFolders(['folder1','folder1/folder2','folder1/folder3'])
 ```
 
 It will only create folders once, if folder already exist then will bypass it.
