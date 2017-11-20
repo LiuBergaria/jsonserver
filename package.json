@@ -1,6 +1,6 @@
 {
   "name": "create-empty-folders",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "minimal library to create empty folder structures",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/nivesh2/create-empty-folders.git"
   },
   "keywords": [
-    "folders"
+    "folders", "create folders", "empty folders"
   ],
   "author": "Nivesh Singh (nivesh2@gmail.com) <http://niveshsingh.com/>",
   "license": "MIT",
