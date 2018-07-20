@@ -1,35 +1,10 @@
-var fs = require('fs')
+slider
 
-function createFolder(folderName) {
-  var dirs = folderName
-  if (!Array.isArray(dirs)) {
-    if (typeof dirs === 'string') {
-      dirs = []
-      dirs.push(folderName)
-    } else {
-      var error = new Error('Parameter can only be string or Array of string')
-      error.name = 'InvalidParameters'
-      throw error
-    }
-  }
-  dirs.forEach((dir) => {
-    if (typeof dir !== 'string') {
-      var error = new Error('Parameter can only be string or Array of string')
-      error.name = 'InvalidParameters'
-      throw error
-    }
-    if (!fs.existsSync(dir)) {
-      try {
-        fs.mkdirSync(dir)
-        console.log('Folder Created:', dir)
-      } catch (e) {
-        var err = new Error('Parent folder is not present: ' + dir)
-        err.name = 'FolderNotFound'
-        throw err
-      }
-    }
-  })
-  return true
-}
+classes de css - tables / icones / menu / ativos / animações entrada e saida
 
-module.exports = exports = createFolder
+funções over page
+
+setar height 100% maximo em conteudos do middle
+obs: as vezes é necessário uma div container pra isso
+** align-self: flex-start também conserta o problema
+
