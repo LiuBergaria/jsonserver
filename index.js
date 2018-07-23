@@ -8,6 +8,7 @@ setar height 100% maximo em conteudos do middle
 obs: as vezes é necessário uma div container pra isso
 ** align-self: flex-start também conserta o problema
 
+https://codepen.io/fixcl/pen/lvCFr // rings animation // app loader
 https://codepen.io/Rplus/pen/lEDBj // border animation // app loader
 
 https://ianlunn.github.io/Hover/ // pacote de transições
